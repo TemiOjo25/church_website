@@ -1,0 +1,626 @@
+html,body{
+  scroll-behavior: smooth;
+  margin:0px;
+  padding: 0px;
+  border: 0px;
+
+}
+
+body{
+  background: #EAE7DC;
+  font-family: Trebuchet MS, sans-serif;
+  box-sizing: border-box;
+
+}
+
+
+#churchlogo{
+  position: relative;
+  top: 10px;
+  left:40px;
+}
+header{
+  background: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  box-shadow: 0px 0px 25px 0px black;
+  
+
+  z-index: 2;
+}
+.nav-link{
+  color: black;
+  font-size: 14px;
+  
+}
+
+/*CSS for media slide */
+.slidevidcontainer{
+  position: relative;
+  bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  transition: .5s;
+  width: 50%;
+
+}
+
+.medias{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  justify-content: center;
+  max-width: 100%;
+
+  
+  border-radius: 15px;
+}
+.medias:hover{
+  cursor: pointer;
+  border:2px solid black;
+}
+
+.slidemedia{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  bottom: 0px;
+
+}
+
+/* CSS for contents */
+#welcome{
+  font-family: Verdana;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 45px;
+  width: 89%;
+  margin-right: auto;
+  margin-top: auto;
+  color: #0B0C10;
+  line-height: 60px;
+  font-weight:900;
+}
+.wordInfo{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.solid{
+  position: relative;
+  border-top: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius:6px;  
+  top: 40px;
+  z-index: -2;
+}
+#about{
+  position: relative;
+  bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 29px;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  font-size: 12px;
+  padding-top:80px;
+}
+#aboutuscontainer{
+  display: flex;
+  position: relative;
+  bottom: -30px;
+  border-radius: 10px;
+  transition: 0.8s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 100%;
+  text-align: center;
+  
+  
+}
+#aboutuscontainer{
+  transform: scale(1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+  
+}
+
+
+/* CSS for Events and Announcements */
+
+.aeContainer{
+  padding-top: 90px;
+}
+.meta {
+    font-family: Helvetica,Arial,open-sans;
+    font-size: .8571rem;
+    font-weight: 600;
+    color: #0093e0!important;
+}
+
+
+
+@media (max-width: 991px) {
+  .announcements h2 {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .announcements h2.events-heading {
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+}
+
+.announcements .slick-slider ul {
+  font-family: "Open Sans Condensed", Arial, Verdana, sans-serif;
+}
+
+.announcements .slick-slider ul li:last-child {
+  border-bottom: none;
+  margin-bottom:65px;
+}
+
+.announcements .slick-slider ul li h3:hover a {
+  color: #7d3793;
+  text-decoration: underline;
+}
+
+.announcements .slick-slider ul p {
+  font-size: 1.2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+}
+
+.announcements .slick-slider .all {
+  color: #0093e0!important;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+}
+
+.announcements .slick-slider .all:hover {
+  border-bottom: none;
+}
+
+.announcements .slick-slider .all .fa-caret-right {
+  padding-left: 6px;
+  position: relative;
+}
+
+.announcements .slick-slider .all .fa-caret-right:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  bottom: -4px;
+  right: 0;
+  background-color: #fff;
+}
+
+.announcements .left-right-arrows button:first-child {
+  margin-right: 3px;
+}
+
+@media (max-width: 991px) {
+  .announcements {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .announcements {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .announcements {
+    width: 100%;
+  }
+}
+
+.left-right-arrows {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+
+@media (max-width: 767px) {
+  .left-right-arrows {
+    border-top: -21px;
+  }
+}
+
+.left-right-arrows button {
+  height: 38px;
+  width: 38px;
+  border: 1px solid #464646;
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .left-right-arrows button {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+
+.events-section {
+  position: relative;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .events-section {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .events-section {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .events-section {
+    width: 100%;
+  }
+}
+
+.events-section .slick-slider ul {
+  font-family: "Open Sans Condensed", Arial, Verdana, sans-serif;
+}
+
+.events-section .slick-slider ul li {
+  padding: 2rem 0;
+  position: relative;
+}
+
+
+
+.events-section .slick-slider ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 65px;
+}
+
+
+
+@media (max-width: 767px) {
+  .events-section .slick-slider ul li:after {
+    width: 80px;
+  }
+}
+
+.events-section .slick-slider ul li:hover .events-date {
+  background-color: #461e52;
+  color: #fff;
+}
+
+.events-section .slick-slider ul li:hover .event-li h3 {
+  color: #0093e0!important;
+}
+
+.events-section .slick-slider ul li .event-li {
+  display: inline-block;
+  padding-left: 42px;
+}
+
+@media (max-width: 767px) {
+  .events-section .slick-slider ul li .event-li {
+    padding-left: 15px;
+  }
+}
+
+.events-section .slick-slider ul li .event-li h3 {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .events-section .slick-slider ul li .event-li h3 {
+    font-size: 1.429rem;
+  }
+}
+
+.events-section .slick-slider ul li .event-li p {
+  font-size: 1.214rem;
+  font-weight: 600;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+}
+
+@media (max-width: 767px) {
+  .events-section .slick-slider ul li .event-li p {
+    font-size: 16px;
+    /*font-size: 1.6rem;*/
+  }
+}
+
+.events-section .slick-slider .all {
+  color: #461e52;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+}
+
+.events-section .slick-slider .all:hover {
+  border-bottom: none;
+}
+
+.events-section .slick-slider .all .fa-caret-right {
+  padding-left: 6px;
+  position: relative;
+}
+
+.events-section .slick-slider .all .fa-caret-right:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  bottom: -4px;
+  right: 0;
+  background-color: #fff;
+}
+
+.events-section .slick-slider .events-date {
+  min-width: 81px;
+  height: 88px;
+  background-color: #0093e0!important;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+  font-weight: 600;
+  padding-top: 19px;
+  display: inline-block;
+  transition: all, 0.4s, ease;
+}
+
+@media (max-width: 767px) {
+  .events-section .slick-slider .events-date {
+    width: 61px;
+    height: 68px;
+    padding-top: 10px;
+  }
+}
+
+.events-section .slick-slider .events-date a:focus, .events-section .slick-slider .events-date a:hover {
+  color: #fff;
+}
+
+.events-section .slick-slider .events-date span {
+  font-weight: 300;
+  font-size: 2.5rem;
+  display: block;
+  padding: 0;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .events-section .slick-slider .events-date span {
+    font-size: 1.429rem;
+  }
+}
+
+@media (min-width: 991px) {
+  .events-section .left-right-arrows {
+    bottom: 0px;
+  }
+}
+
+/* CSS for bible scriptures */
+.scripturecontainer{
+  padding: 30px;
+}
+
+  
+.quotecontainer{
+  margin-left: auto;
+  margin-right: auto;
+  height: 390px;
+  width: 380px;
+  transition: .8s;
+  border-radius: 20px;
+  margin-top:10px;
+  
+}
+.quotecontainer:hover{
+  cursor: pointer;
+}
+
+
+.testing{
+  transform:
+    perspective(75em)
+    rotateX(18deg);
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color:
+    rgb(213, 220, 226)
+    rgb(213, 220, 226)
+    rgb(184, 194, 204);
+}
+
+/* extra effects for header and logo */
+header img:hover{
+  transform: rotateY(360deg);
+}
+header img{
+  transition: 2.9s;
+}
+
+/* CSS for contactForm */
+.contactForm label, .contactForm input{
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border-width: thin;
+  width: 300px;
+  padding: 5px;
+  margin-top: 0px;
+
+}
+.end{
+  border: 0;
+  position: relative;
+  border-top: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius:6px;  
+  bottom: 50px;
+  z-index: -2;
+  
+  
+}
+.contactFormContainer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  padding-bottom: 400px;
+  }
+.contactForm button{
+  position: relative;
+  color: white;
+  top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 85px;
+  height: 30px;
+  border-width: inherit;
+  border-radius: 5px;
+  font-size: 10px;
+  transition: .1s;
+  background-color: orange;
+
+}
+.contactForm button:hover{
+  transform: scale(1.1);
+
+}
+
+footer {
+	background-color: #2a2a40;
+	display: flex;
+	justify-content: center;
+}
+
+footer,
+footer a {
+  color: #dfdfe2;
+}
+
+address {
+  text-align: center;
+  padding: 2em;
+}
+
+
+/* CSS for The Creed */
+.creedContainer{
+  height: 350px;
+  width: 390px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px solid gray;
+  border-width: thin;
+  border-radius: 10px;
+  margin-top: 50px;
+  transition: .4s;
+  font-size: 14px;
+  line-height: 24px;
+}
+.creedContainer:hover{
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.divContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.worshipTable{
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  height: 280px;
+  border:5px solid gray;
+  border-radius: 30px;
+  border-width: thin;
+  margin-top:50px;
+  transition: .4s;
+  font-size: 15px
+}
+.worshipTable:hover{
+  transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+#location {
+  color: white;
+  text-decoration: none;
+}
+
+#circularcontainer img{
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  transition: 0.4s;
+  
+}
+#circularcontainer{
+  margin-top: 100px;
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 200px;
+  width: 200px;
+  height: 200px ;
+  border-radius: 50%;
+  
+}
+#circularcontainer img:hover{
+  transform: scale(1.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 50%;
+}
+ #introcontainer{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 700px;
+ }
